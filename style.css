@@ -1,0 +1,34 @@
+.col-md-8 { 
+	margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+	    color: blue;
+	}
+
+	.mobile {
+	  background-image: url("go2.jpg");
+	}
+  
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+	.container {
+	    color: red;
+	}
+
+	.tablet {
+		  background-image: url("go1.jpg");
+	}
+}
+
+@media only screen and (min-width:1000px) {
+	.container {
+	    color: green;
+	}
+
+	.laptop {
+    background-image: url("go.png");
+	}
+}
